@@ -56,7 +56,7 @@ function SmartsheetRender($input, array $args) {
     };
 
     // Assemble iframe
-    $output= '<iframe name="smartsheet" frameborder="0" '.
+    $output = '<iframe name="smartsheet" frameborder="0" '.
                 'src="'.$wgSmartsheetPublishURL . htmlspecialchars($attr['id']).'" ' .
                 'width="'.htmlspecialchars($attr['width']).'" '.
                 'height="'.htmlspecialchars($attr['height']).'">'.
@@ -68,5 +68,5 @@ function SmartsheetRender($input, array $args) {
 //Defaults
 $wgSmartsheetTagName = 'smartsheet'; // The tag name to be processed
 $wgSmartsheetPublishURL = 'http://publish.smartsheet.com/'; // The URL for smartsheet published sheets
-$wgSmartsheetIframeWidth = 1000; // Default width (default: 500)
-$wgSmartsheetIframeHeight = 700; // Default height (default: 500)
+$wgSmartsheetIframeWidth = 1000; // Default width
+$wgSmartsheetIframeHeight = 700; // Default height
