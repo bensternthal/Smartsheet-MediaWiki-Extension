@@ -13,12 +13,12 @@ Developer Setup
 
 Usage
 ------------
-Example: <smartsheet id="53e9029517dc4d8c8b799blahblah" width="500" height="500" />
-Example: <smartsheet id="53e9029517dc4d8c8b799blahblah" />
+Example: '<smartsheet id="53e9029517dc4d8c8b799blahblah" width="500" height="500" />'
+Example: '<smartsheet id="53e9029517dc4d8c8b799blahblah" />'
 
-id: The id of your smartsheet
+'id: The id of your smartsheet
 width: optional, default 1000
-height: optional, default 700
+height: optional, default 700'
 
 
 License
