@@ -8,7 +8,8 @@ Developer Setup
 ---------------
 
 1. Download, checkout or clone
-2. Copy smartsheet folder into your MediaWiki extensions folder `extensions/Smartsheet`
+2. Create a folder called Smartsheet in your MediaWiki extensions folder `extensions/Smartsheet`
+2. Move contents into above folder
 3. Add require_once( "$IP/extensions/Smartsheet/SmartsheetIframe.php") to LocalSettings.php
 
 Usage
