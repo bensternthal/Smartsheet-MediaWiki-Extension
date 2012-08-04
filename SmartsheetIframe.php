@@ -17,7 +17,7 @@
 $wgExtensionCredits['other'][] = array(
     'name'          => 'Smartsheet',
     'author'        => 'Benjamin Sternthal With Inspiration From https://github.com/LegNeato/mediawiki-bugzilla',
-    'url'           => 'TBD',
+    'url'           => 'https://github.com/bensternthal/Smartsheet-MediaWiki-Extension',
     'description'   => 'This extension allows embedding of a smartsheet within an iframe.'
 );
 
