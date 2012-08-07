@@ -21,6 +21,12 @@ $wgExtensionCredits['other'][] = array(
     'description'   => 'This extension allows embedding of a smartsheet within an iframe.'
 );
 
+//Defaults
+$wgSmartsheetTagName = 'smartsheet'; // The tag name to be processed
+$wgSmartsheetPublishURL = 'http://publish.smartsheet.com/'; // The URL for smartsheet published sheets
+$wgSmartsheetIframeWidth = 1000; // Default width
+$wgSmartsheetIframeHeight = 700; // Default height
+
 // Hooks for plugin display
 $wgHooks['ParserFirstCallInit'][] = 'SmartsheetParserInit';
 
@@ -64,9 +70,3 @@ function SmartsheetRender($input, array $args) {
 
     return $output;
 }
-
-//Defaults
-$wgSmartsheetTagName = 'smartsheet'; // The tag name to be processed
-$wgSmartsheetPublishURL = 'http://publish.smartsheet.com/'; // The URL for smartsheet published sheets
-$wgSmartsheetIframeWidth = 1000; // Default width
-$wgSmartsheetIframeHeight = 700; // Default height
