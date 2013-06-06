@@ -23,7 +23,7 @@ $wgExtensionCredits['other'][] = array(
 
 //Defaults
 $wgSmartsheetTagName = 'smartsheet'; // The tag name to be processed
-$wgSmartsheetPublishURL = 'http://publish.smartsheet.com/'; // The URL for smartsheet published sheets
+$wgSmartsheetPublishURL = 'https://www.smartsheet.com/b/publish?embed=true&EQBCT='; // The URL for smartsheet published sheets
 $wgSmartsheetIframeWidth = 1000; // Default width
 $wgSmartsheetIframeHeight = 700; // Default height
 
@@ -60,6 +60,8 @@ function SmartsheetRender($input, array $args) {
     if(!isset($attr['height'])) {
         $attr['height'] = $wgSmartsheetIframeHeight;
     };
+
+
 
     // Assemble iframe
     $output = '<iframe name="smartsheet" frameborder="0" '.

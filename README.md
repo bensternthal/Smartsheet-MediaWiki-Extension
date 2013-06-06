@@ -29,6 +29,13 @@ Example:
     height: optional, default 700
 
 
+Smartsheet Settings
+------------
+To embed smartsheets you must publish them using the smartsheet interface.
+
+This plugin requires embedded smartsheets to have the publish option 
+"Read-Only Full" set to on.
+
 
 License
 -------
